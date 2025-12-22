@@ -7,7 +7,8 @@ import com.example.authenticator_app.dtos.ProfileResponse;
 
 @Service
 public interface  ProfileService {
+     //create new user profile
      ProfileResponse createProfile(ProfileRequest request);
-   
-
 }
+
+
